@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tienda de ropa urbana moderna y cómoda" />
+    <title>Vertic7 | ropa a tu estilo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <a href="#" class="brand">Vertic7</a>
+        <div class="nav-links">
+          <a href="#productos">Productos</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <button id="open-cart" class="cart-pill" type="button">🛍️ Carrito <span id="cart-count">0</span></button>
+      </nav>
+
+      <div class="hero-content">
+        <div>
+          <p class="eyebrow">Nueva colección 2026</p>
+          <h1>Ropa que combina estilo, confort y actitud.</h1>
+          <p class="hero-text">
+            Descubre prendas urbanas con diseño moderno para tu día a día.
+          </p>
+          <a class="btn btn-primary" href="#productos">Ver colección</a>
+        </div>
+        <div class="hero-card">
+          <h3>Lo más destacado</h3>
+          <ul>
+            <li>Materiales suaves y resistentes</li>
+            <li>Diseños únicos para cualquier ocasión</li>
+            <li>Envíos rápidos a toda destino</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="stats">
+        <div>
+          <strong>+2.000</strong>
+          <span>Clientes satisfechos</span>
+        </div>
+        <div>
+          <strong>24h</strong>
+          <span>Envío exprés</span>
+        </div>
+        <div>
+          <strong>4.9/5</strong>
+          <span>Calificación promedio</span>
+        </div>
+      </section>
+
+      <section id="productos" class="products-section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Colección favorita</p>
+            <h2>Prendas que amarás</h2>
+          </div>
+          <p>Estilo urbano con acabados premium.</p>
+        </div>
+        <div class="category-filters" id="category-filters">
+          <button class="filter-btn active" data-category="all" type="button">Todos</button>
+
+          <div class="filter-group">
+            <button class="filter-btn" data-category="women" type="button">Mujer</button>
+            <div class="submenu" id="women-submenu">
+              <button class="filter-btn subfilter-btn" data-category="women-tshirts" type="button">Camisetas de damas</button>
+              <button class="filter-btn subfilter-btn" data-category="women" type="button">Ver todo mujer</button>
+            </div>
+          </div>
+
+          <button class="filter-btn" data-category="men" type="button">Hombre</button>
+        </div>
+        <div id="product-list" class="product-grid"></div>
+      </section>
+
+      <section class="promo-banner" id="nosotros">
+        <div>
+          <p class="eyebrow">Por qué elegir Vertic7</p>
+          <h3>Moda fresca para personas que quieren destacar.</h3>
+        </div>
+        <a class="btn btn-secondary" href="#contacto">Contáctanos</a>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <h3>¿Quieres una prenda personalizada?</h3>
+        <p>Escríbenos y te ayudamos a encontrar el outfit perfecto.</p>
+        <a class="btn btn-primary" href="mailto:ventas@vertic7.com">ventas@vertic7.com</a>
+      </section>
+    </main>
+
+    <div id="cart-overlay" class="cart-overlay"></div>
+    <aside id="cart-panel" class="cart-panel" aria-label="Carrito de compras">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Tu compra</p>
+          <h3>Carrito</h3>
+        </div>
+        <button id="close-cart" class="icon-button" type="button">✕</button>
+      </div>
+
+      <div id="cart-items" class="cart-items"></div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <strong id="cart-subtotal">$0.00</strong>
+        </div>
+        <div class="summary-row">
+          <span>Envío</span>
+          <strong>Gratis</strong>
+        </div>
+        <button id="checkout-btn" class="btn btn-primary full-width" type="button">Comprar ahora</button>
+      </div>
+    </aside>
+
+    <footer>
+      <p>© 2026 Vertic7. Moda urbana y contemporánea.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
