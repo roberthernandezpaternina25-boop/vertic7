@@ -50,26 +50,210 @@ const products = [
   {
     id: 7,
     category: 'men',
-    name: 'Sudadera para hombre',
-    price: 50.000,
-    description: 'Diseño cómodo y caliente con estilo streetwear.',
-    image: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80'
+    name: 'Camiseta caballero 1',
+    price: 90.00,
+    description: 'Corte moderno con estampado masculino.',
+    image: 'imagenes/camisetas caballero/1.jpeg'
   },
   {
     id: 8,
     category: 'men',
-    name: 'Chamarra ligera',
-    price: 54.99,
-    description: 'Perfecta para capas urbanas con toque moderno.',
-    image: 'https://images.unsplash.com/photo-1495121605193-bb2f8a3fa479?auto=format&fit=crop&w=900&q=80'
+    name: 'Camiseta caballero 2',
+    price: 90.00,
+    description: 'Tonos sobrios y estilo urbano.',
+    image: 'imagenes/camisetas caballero/2.jpeg'
   },
   {
     id: 9,
     category: 'men',
-    name: 'Playera básica',
-    price: 24.99,
-    description: 'Clásico esencial con un ajuste cómodo.',
-    image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80'
+    name: 'Camiseta caballero 3',
+    price: 90.00,
+    description: 'Look fresco para uso diario.',
+    image: 'imagenes/camisetas caballero/3.jpeg'
+  },
+  {
+    id: 10,
+    category: 'men',
+    name: 'Camiseta caballero 4',
+    price: 90.00,
+    description: 'Estilo relajado con detalle gráfico.',
+    image: 'imagenes/camisetas caballero/4.jpeg'
+  },
+  {
+    id: 11,
+    category: 'men',
+    name: 'Camiseta caballero 5',
+    price: 90.00,
+    description: 'Moda urbana con corte cómodo.',
+    image: 'imagenes/camisetas caballero/5.jpeg'
+  },
+  {
+    id: 12,
+    category: 'men',
+    name: 'Camiseta caballero 6',
+    price: 90.00,
+    description: 'Diseño casual para cualquier ocasión.',
+    image: 'imagenes/camisetas caballero/6.jpeg'
+  },
+  {
+    id: 13,
+    category: 'men',
+    name: 'Camiseta caballero 7',
+    price: 90.00,
+    description: 'Estilo moderno con estampados frescos.',
+    image: 'imagenes/camisetas caballero/7.jpeg'
+  },
+  {
+    id: 14,
+    category: 'men',
+    name: 'Camiseta caballero 8',
+    price: 90.00,
+    description: 'Look urbano para tu día a día.',
+    image: 'imagenes/camisetas caballero/8.jpeg'
+  },
+  {
+    id: 15,
+    category: 'men',
+    name: 'Camiseta caballero 9',
+    price: 90.00,
+    description: 'Estilo básico con un toque moderno.',
+    image: 'imagenes/camisetas caballero/9.jpeg'
+  },
+  {
+    id: 16,
+    category: 'men',
+    name: 'Camiseta caballero 10',
+    price: 90.00,
+    description: 'Acentos discretos y look diario.',
+    image: 'imagenes/camisetas caballero/10.jpeg'
+  },
+  {
+    id: 17,
+    category: 'men',
+    name: 'Camiseta caballero 11',
+    price: 90.00,
+    description: 'Diseño minimalista para cualquier ocasión.',
+    image: 'imagenes/camisetas caballero/11.jpeg'
+  },
+  {
+    id: 18,
+    category: 'men',
+    name: 'Camiseta caballero 12',
+    price: 90.00,
+    description: 'Estilo urbano con acabado suave.',
+    image: 'imagenes/camisetas caballero/12.jpeg'
+  },
+  {
+    id: 19,
+    category: 'men',
+    name: 'Camiseta caballero 13',
+    price: 90.00,
+    description: 'Look moderno con estampado ligero.',
+    image: 'imagenes/camisetas caballero/13.jpeg'
+  },
+  {
+    id: 20,
+    category: 'men',
+    name: 'Camiseta caballero 14',
+    price: 90.00,
+    description: 'Color sólido con estilo urbano.',
+    image: 'imagenes/camisetas caballero/14.jpeg'
+  },
+  {
+    id: 21,
+    category: 'men',
+    name: 'Camiseta caballero 15',
+    price: 90.00,
+    description: 'Diseño fresco y cómodo para el día.',
+    image: 'imagenes/camisetas caballero/15.jpeg'
+  },
+  {
+    id: 22,
+    category: 'men',
+    name: 'Camiseta caballero 16',
+    price: 90.00,
+    description: 'Estilo relajado con detalles modernos.',
+    image: 'imagenes/camisetas caballero/16.jpeg'
+  },
+  {
+    id: 23,
+    category: 'men',
+    name: 'Camiseta caballero 17',
+    price: 90.00,
+    description: 'Look urbano con gráfico sutil.',
+    image: 'imagenes/camisetas caballero/17.jpeg'
+  },
+  {
+    id: 24,
+    category: 'men',
+    name: 'Camiseta caballero 18',
+    price: 90.00,
+    description: 'Corte clásico con toque contemporáneo.',
+    image: 'imagenes/camisetas caballero/18.jpeg'
+  },
+  {
+    id: 25,
+    category: 'men',
+    name: 'Camiseta caballero 19',
+    price: 90.00,
+    description: 'Estilo versátil para todo el día.',
+    image: 'imagenes/camisetas caballero/19.jpeg'
+  },
+  {
+    id: 26,
+    category: 'men',
+    name: 'Camiseta caballero 20',
+    price: 90.00,
+    description: 'Diseño urbano con detalles modernos.',
+    image: 'imagenes/camisetas caballero/20.jpeg'
+  },
+  {
+    id: 27,
+    category: 'men',
+    name: 'Camiseta caballero 21',
+    price: 90.00,
+    description: 'Comodidad y estilo en una sola prenda.',
+    image: 'imagenes/camisetas caballero/21.jpeg'
+  },
+  {
+    id: 28,
+    category: 'men',
+    name: 'Camiseta caballero 22',
+    price: 90.00,
+    description: 'Look urbano y casual.',
+    image: 'imagenes/camisetas caballero/22.jpeg'
+  },
+  {
+    id: 29,
+    category: 'men',
+    name: 'Camiseta caballero 23',
+    price: 90.00,
+    description: 'Estilo fresco para tu closet.',
+    image: 'imagenes/camisetas caballero/23.jpeg'
+  },
+  {
+    id: 30,
+    category: 'men',
+    name: 'Camiseta caballero 24',
+    price: 90.00,
+    description: 'Diseño moderno con acabado suave.',
+    image: 'imagenes/camisetas caballero/24.jpeg'
+  },
+  {
+    id: 31,
+    category: 'men',
+    name: 'Camiseta caballero 25',
+    price: 90.00,
+    description: 'Look diario con estilo urbano.',
+    image: 'imagenes/camisetas caballero/25.jpeg'
+  },
+  {
+    id: 32,
+    category: 'men',
+    name: 'Camiseta caballero 26',
+    price: 90.00,
+    description: 'Estilo versátil para el día a día.',
+    image: 'imagenes/camisetas caballero/26.jpeg'
   }
 ];
 
