@@ -72,6 +72,21 @@ a {
   cursor: pointer;
 }
 
+.menu-toggle {
+  display: none;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
 .hero-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -145,31 +160,7 @@ h1 {
 }
 
 main {
-  padding: 0 24px 48px;
-}
-
-.stats {
-  max-width: 1200px;
-  margin: 0 auto 36px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  padding: 24px;
-}
-
-.stats div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-}
-
-.stats strong {
-  font-size: 1.25rem;
-}
-
-.stats span {
-  color: var(--muted);
+  padding: 0 24px 64px;
 }
 
 .products-section,
@@ -492,6 +483,11 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .navbar {
+    position: relative;
+    padding-right: 16px;
+  }
+
   .navbar,
   .section-header,
   .promo-banner {
@@ -499,7 +495,110 @@ footer {
     align-items: flex-start;
   }
 
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 20px;
+    background: rgba(15, 23, 42, 0.96);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    backdrop-filter: blur(12px);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 14px 0;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .nav-links a:last-child {
+    border-bottom: none;
+  }
+
   .nav-links {
     flex-wrap: wrap;
+  }
+
+  .product-grid {
+    gap: 18px;
+  }
+
+  .promo-banner {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 20px 16px 40px;
+  }
+
+  .navbar {
+    padding: 14px 16px;
+  }
+
+  .hero-content {
+    gap: 24px;
+  }
+
+  .hero-card,
+  .products-section,
+  .promo-banner,
+  .contact-section,
+  .cart-header,
+  .cart-summary {
+    padding: 20px;
+  }
+
+  .section-header {
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .product-card img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .product-card {
+    padding: 18px;
+  }
+
+  .product-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .category-filters {
+    justify-content: flex-start;
+  }
+
+  .filter-btn,
+  .subfilter-btn {
+    width: 100%;
+  }
+
+  .filter-btn {
+    text-align: center;
+  }
+
+  .promo-banner {
+    width: 100%;
   }
 }

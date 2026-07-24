@@ -50,7 +50,7 @@ const products = [
   {
     id: 7,
     category: 'men',
-    name: 'Camiseta caballero 1',
+    name: 'Camiseta 1.1 tela fria (1)',
     price: 90.00,
     description: 'Corte moderno con estampado masculino.',
     image: 'imagenes/camisetas caballero/1.jpeg'
@@ -58,7 +58,7 @@ const products = [
   {
     id: 8,
     category: 'men',
-    name: 'Camiseta caballero 2',
+    name: 'Camiseta 1.1 tela fria (2)',
     price: 90.00,
     description: 'Tonos sobrios y estilo urbano.',
     image: 'imagenes/camisetas caballero/2.jpeg'
@@ -66,7 +66,7 @@ const products = [
   {
     id: 9,
     category: 'men',
-    name: 'Camiseta caballero 3',
+    name: 'Camiseta 1.1 tela fria (3)',
     price: 90.00,
     description: 'Look fresco para uso diario.',
     image: 'imagenes/camisetas caballero/3.jpeg'
@@ -74,7 +74,7 @@ const products = [
   {
     id: 10,
     category: 'men',
-    name: 'Camiseta caballero 4',
+    name: 'Camiseta 1.1 tela fria (4)',
     price: 90.00,
     description: 'Estilo relajado con detalle gráfico.',
     image: 'imagenes/camisetas caballero/4.jpeg'
@@ -82,7 +82,7 @@ const products = [
   {
     id: 11,
     category: 'men',
-    name: 'Camiseta caballero 5',
+    name: 'Camiseta 1.1 tela fria (5)',
     price: 90.00,
     description: 'Moda urbana con corte cómodo.',
     image: 'imagenes/camisetas caballero/5.jpeg'
@@ -90,7 +90,7 @@ const products = [
   {
     id: 12,
     category: 'men',
-    name: 'Camiseta caballero 6',
+    name: 'Camiseta 1.1 tela fria (6)',
     price: 90.00,
     description: 'Diseño casual para cualquier ocasión.',
     image: 'imagenes/camisetas caballero/6.jpeg'
@@ -98,7 +98,7 @@ const products = [
   {
     id: 13,
     category: 'men',
-    name: 'Camiseta caballero 7',
+    name: 'Camiseta 1.1 tela fria (7)',
     price: 90.00,
     description: 'Estilo moderno con estampados frescos.',
     image: 'imagenes/camisetas caballero/7.jpeg'
@@ -106,7 +106,7 @@ const products = [
   {
     id: 14,
     category: 'men',
-    name: 'Camiseta caballero 8',
+    name: 'Camiseta 1.1 tela fria (8)',
     price: 90.00,
     description: 'Look urbano para tu día a día.',
     image: 'imagenes/camisetas caballero/8.jpeg'
@@ -114,7 +114,7 @@ const products = [
   {
     id: 15,
     category: 'men',
-    name: 'Camiseta caballero 9',
+    name: 'Camiseta 1.1 tela fria (9)',
     price: 90.00,
     description: 'Estilo básico con un toque moderno.',
     image: 'imagenes/camisetas caballero/9.jpeg'
@@ -122,7 +122,7 @@ const products = [
   {
     id: 16,
     category: 'men',
-    name: 'Camiseta caballero 10',
+    name: 'Camiseta 1.1 tela fria (10)',
     price: 90.00,
     description: 'Acentos discretos y look diario.',
     image: 'imagenes/camisetas caballero/10.jpeg'
@@ -130,7 +130,7 @@ const products = [
   {
     id: 17,
     category: 'men',
-    name: 'Camiseta caballero 11',
+    name: 'Camiseta 1.1 tela fria (11)',
     price: 90.00,
     description: 'Diseño minimalista para cualquier ocasión.',
     image: 'imagenes/camisetas caballero/11.jpeg'
@@ -138,7 +138,7 @@ const products = [
   {
     id: 18,
     category: 'men',
-    name: 'Camiseta caballero 12',
+    name: 'Camiseta 1.1 tela fria (12)',
     price: 90.00,
     description: 'Estilo urbano con acabado suave.',
     image: 'imagenes/camisetas caballero/12.jpeg'
@@ -146,7 +146,7 @@ const products = [
   {
     id: 19,
     category: 'men',
-    name: 'Camiseta caballero 13',
+    name: 'Camiseta 1.1 tela fria (13)',
     price: 90.00,
     description: 'Look moderno con estampado ligero.',
     image: 'imagenes/camisetas caballero/13.jpeg'
@@ -154,7 +154,7 @@ const products = [
   {
     id: 20,
     category: 'men',
-    name: 'Camiseta caballero 14',
+    name: 'Camiseta 1.1 tela fria (14)',
     price: 90.00,
     description: 'Color sólido con estilo urbano.',
     image: 'imagenes/camisetas caballero/14.jpeg'
@@ -162,7 +162,7 @@ const products = [
   {
     id: 21,
     category: 'men',
-    name: 'Camiseta caballero 15',
+    name: 'Camiseta 1.1 tela fria (15)',
     price: 90.00,
     description: 'Diseño fresco y cómodo para el día.',
     image: 'imagenes/camisetas caballero/15.jpeg'
@@ -170,7 +170,7 @@ const products = [
   {
     id: 22,
     category: 'men',
-    name: 'Camiseta caballero 16',
+    name: 'Camiseta 1.1 tela fria (16)',
     price: 90.00,
     description: 'Estilo relajado con detalles modernos.',
     image: 'imagenes/camisetas caballero/16.jpeg'
@@ -178,7 +178,7 @@ const products = [
   {
     id: 23,
     category: 'men',
-    name: 'Camiseta caballero 17',
+    name: 'Camiseta 1.1 tela fria (17)',
     price: 90.00,
     description: 'Look urbano con gráfico sutil.',
     image: 'imagenes/camisetas caballero/17.jpeg'
@@ -186,7 +186,7 @@ const products = [
   {
     id: 24,
     category: 'men',
-    name: 'Camiseta caballero 18',
+    name: 'Camiseta 1.1 tela fria (18)',
     price: 90.00,
     description: 'Corte clásico con toque contemporáneo.',
     image: 'imagenes/camisetas caballero/18.jpeg'
@@ -194,7 +194,7 @@ const products = [
   {
     id: 25,
     category: 'men',
-    name: 'Camiseta caballero 19',
+    name: 'Camiseta 1.1 tela fria (19)',
     price: 90.00,
     description: 'Estilo versátil para todo el día.',
     image: 'imagenes/camisetas caballero/19.jpeg'
@@ -202,7 +202,7 @@ const products = [
   {
     id: 26,
     category: 'men',
-    name: 'Camiseta caballero 20',
+    name: 'Camiseta 1.1 tela fria (20)',
     price: 90.00,
     description: 'Diseño urbano con detalles modernos.',
     image: 'imagenes/camisetas caballero/20.jpeg'
@@ -210,7 +210,7 @@ const products = [
   {
     id: 27,
     category: 'men',
-    name: 'Camiseta caballero 21',
+    name: 'Camiseta 1.1 tela fria (21)',
     price: 90.00,
     description: 'Comodidad y estilo en una sola prenda.',
     image: 'imagenes/camisetas caballero/21.jpeg'
@@ -218,7 +218,7 @@ const products = [
   {
     id: 28,
     category: 'men',
-    name: 'Camiseta caballero 22',
+    name: 'Camiseta 1.1 tela fria (22)',
     price: 90.00,
     description: 'Look urbano y casual.',
     image: 'imagenes/camisetas caballero/22.jpeg'
@@ -226,7 +226,7 @@ const products = [
   {
     id: 29,
     category: 'men',
-    name: 'Camiseta caballero 23',
+    name: 'Camiseta 1.1 tela fria (23)',
     price: 90.00,
     description: 'Estilo fresco para tu closet.',
     image: 'imagenes/camisetas caballero/23.jpeg'
@@ -234,7 +234,7 @@ const products = [
   {
     id: 30,
     category: 'men',
-    name: 'Camiseta caballero 24',
+    name: 'Camiseta 1.1 tela fria (24)',
     price: 90.00,
     description: 'Diseño moderno con acabado suave.',
     image: 'imagenes/camisetas caballero/24.jpeg'
@@ -242,7 +242,7 @@ const products = [
   {
     id: 31,
     category: 'men',
-    name: 'Camiseta caballero 25',
+    name: 'Camiseta 1.1 tela fria (25)',
     price: 90.00,
     description: 'Look diario con estilo urbano.',
     image: 'imagenes/camisetas caballero/25.jpeg'
@@ -250,7 +250,7 @@ const products = [
   {
     id: 32,
     category: 'men',
-    name: 'Camiseta caballero 26',
+    name: 'Camiseta 1.1 tela fria (26)',
     price: 90.00,
     description: 'Estilo versátil para el día a día.',
     image: 'imagenes/camisetas caballero/26.jpeg'
@@ -269,6 +269,8 @@ const closeCartButton = document.getElementById('close-cart');
 const cartOverlay = document.getElementById('cart-overlay');
 const cartPanel = document.getElementById('cart-panel');
 const checkoutButton = document.getElementById('checkout-btn');
+const menuToggleButton = document.getElementById('menu-toggle');
+const navLinks = document.querySelector('.nav-links');
 const whatsappNumber = '3218920417';
 let selectedCategory = 'all';
 
@@ -375,6 +377,19 @@ function closeCart() {
   document.body.classList.remove('no-scroll');
 }
 
+function closeMobileMenu() {
+  if (!navLinks) return;
+  navLinks.classList.remove('open');
+  menuToggleButton?.setAttribute('aria-expanded', 'false');
+}
+
+function toggleMobileMenu(event) {
+  if (!navLinks || !menuToggleButton) return;
+  if (event) event.stopPropagation();
+  const isOpen = navLinks.classList.toggle('open');
+  menuToggleButton.setAttribute('aria-expanded', String(isOpen));
+}
+
 function addToCart(productId) {
   const product = products.find((item) => item.id === Number(productId));
   if (!product) return;
@@ -439,6 +454,17 @@ cartItemsElement.addEventListener('click', (event) => {
 openCartButton.addEventListener('click', openCart);
 closeCartButton.addEventListener('click', closeCart);
 cartOverlay.addEventListener('click', closeCart);
+menuToggleButton?.addEventListener('click', toggleMobileMenu);
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.navbar')) {
+    closeMobileMenu();
+  }
+});
+navLinks?.addEventListener('click', (event) => {
+  if (event.target.closest('a')) {
+    closeMobileMenu();
+  }
+});
 
 checkoutButton.addEventListener('click', () => {
   if (cartItems.length === 0) return;
