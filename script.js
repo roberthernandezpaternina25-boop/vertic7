@@ -104,6 +104,70 @@ const products = [
     image: 'imagenes/tenis_dama/tenis(7).jpeg'
   },
   {
+    id: 51,
+    category: 'women-ruanas',
+    name: 'Ruana (1)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruanas1.jpeg'
+  },
+  {
+    id: 52,
+    category: 'women-ruanas',
+    name: 'Ruana (2)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana2 (2).jpeg'
+  },
+  {
+    id: 53,
+    category: 'women-ruanas',
+    name: 'Ruana (3)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana3.jpeg'
+  },
+  {
+    id: 54,
+    category: 'women-ruanas',
+    name: 'Ruana (4)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana4.jpeg'
+  },
+  {
+    id: 55,
+    category: 'women-ruanas',
+    name: 'Ruana (5)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana5.jpeg'
+  },
+  {
+    id: 56,
+    category: 'women-ruanas',
+    name: 'Ruana (6)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana6.jpeg'
+  },
+  {
+    id: 57,
+    category: 'women-ruanas',
+    name: 'Ruana (7)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana7.jpeg'
+  },
+  {
+    id: 58,
+    category: 'women-ruanas',
+    name: 'Ruana (8)',
+    price: 100.000,
+    description: 'talla unica, tela hilo nacional.',
+    image: 'imagenes/Ruanas/ruana8.jpeg'
+  },
+  {
     id: 14,
     category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (1)',
