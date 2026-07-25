@@ -49,7 +49,63 @@ const products = [
   },
   {
     id: 7,
-    category: 'men',
+    category: 'women-tennis',
+    name: 'Tenis Dama 1',
+    price: 120.00,
+    description: 'Tenis cómodo con diseño moderno para mujer.',
+    image: 'imagenes/tenis_dama/tenis1.jpeg'
+  },
+  {
+    id: 8,
+    category: 'women-tennis',
+    name: 'Tenis Dama 2',
+    price: 120.00,
+    description: 'Tenis deportivo con estilo femenino y suave amortiguación.',
+    image: 'imagenes/tenis_dama/tenis(2).jpeg'
+  },
+  {
+    id: 9,
+    category: 'women-tennis',
+    name: 'Tenis Dama 3',
+    price: 120.00,
+    description: 'Tenis ligero ideal para paseos y uso diario.',
+    image: 'imagenes/tenis_dama/tenis(3).jpeg'
+  },
+  {
+    id: 10,
+    category: 'women-tennis',
+    name: 'Tenis Dama 4',
+    price: 120.00,
+    description: 'Tenis con detalle de colores y suela cómoda.',
+    image: 'imagenes/tenis_dama/tenis(4).jpeg'
+  },
+  {
+    id: 11,
+    category: 'women-tennis',
+    name: 'Tenis Dama 5',
+    price: 120.00,
+    description: 'Tenis moderno con texturas suaves y ajuste perfecto.',
+    image: 'imagenes/tenis_dama/tenis(5).jpeg'
+  },
+  {
+    id: 12,
+    category: 'women-tennis',
+    name: 'Tenis Dama 6',
+    price: 120.00,
+    description: 'Tenis urbano con un look fresco para mujer.',
+    image: 'imagenes/tenis_dama/tenis(6).jpeg'
+  },
+  {
+    id: 13,
+    category: 'women-tennis',
+    name: 'Tenis Dama 7',
+    price: 120.00,
+    description: 'Tenis femenino con estilo deportivo y cómodo.',
+    image: 'imagenes/tenis_dama/tenis(7).jpeg'
+  },
+  {
+    id: 14,
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (1)',
     price: 90.00,
     description: 'Corte moderno con estampado masculino.',
@@ -57,7 +113,7 @@ const products = [
   },
   {
     id: 8,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (2)',
     price: 90.00,
     description: 'Tonos sobrios y estilo urbano.',
@@ -65,7 +121,7 @@ const products = [
   },
   {
     id: 9,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (3)',
     price: 90.00,
     description: 'Look fresco para uso diario.',
@@ -73,7 +129,7 @@ const products = [
   },
   {
     id: 10,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (4)',
     price: 90.00,
     description: 'Estilo relajado con detalle gráfico.',
@@ -81,7 +137,7 @@ const products = [
   },
   {
     id: 11,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (5)',
     price: 90.00,
     description: 'Moda urbana con corte cómodo.',
@@ -89,7 +145,7 @@ const products = [
   },
   {
     id: 12,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (6)',
     price: 90.00,
     description: 'Diseño casual para cualquier ocasión.',
@@ -97,7 +153,7 @@ const products = [
   },
   {
     id: 13,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (7)',
     price: 90.00,
     description: 'Estilo moderno con estampados frescos.',
@@ -105,7 +161,7 @@ const products = [
   },
   {
     id: 14,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (8)',
     price: 90.00,
     description: 'Look urbano para tu día a día.',
@@ -113,7 +169,7 @@ const products = [
   },
   {
     id: 15,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (9)',
     price: 90.00,
     description: 'Estilo básico con un toque moderno.',
@@ -121,7 +177,7 @@ const products = [
   },
   {
     id: 16,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (10)',
     price: 90.00,
     description: 'Acentos discretos y look diario.',
@@ -129,7 +185,7 @@ const products = [
   },
   {
     id: 17,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (11)',
     price: 90.00,
     description: 'Diseño minimalista para cualquier ocasión.',
@@ -137,7 +193,7 @@ const products = [
   },
   {
     id: 18,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (12)',
     price: 90.00,
     description: 'Estilo urbano con acabado suave.',
@@ -145,7 +201,7 @@ const products = [
   },
   {
     id: 19,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (13)',
     price: 90.00,
     description: 'Look moderno con estampado ligero.',
@@ -153,7 +209,7 @@ const products = [
   },
   {
     id: 20,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (14)',
     price: 90.00,
     description: 'Color sólido con estilo urbano.',
@@ -161,7 +217,7 @@ const products = [
   },
   {
     id: 21,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (15)',
     price: 90.00,
     description: 'Diseño fresco y cómodo para el día.',
@@ -169,7 +225,7 @@ const products = [
   },
   {
     id: 22,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (16)',
     price: 90.00,
     description: 'Estilo relajado con detalles modernos.',
@@ -177,7 +233,7 @@ const products = [
   },
   {
     id: 23,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (17)',
     price: 90.00,
     description: 'Look urbano con gráfico sutil.',
@@ -185,7 +241,7 @@ const products = [
   },
   {
     id: 24,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (18)',
     price: 90.00,
     description: 'Corte clásico con toque contemporáneo.',
@@ -193,7 +249,7 @@ const products = [
   },
   {
     id: 25,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (19)',
     price: 90.00,
     description: 'Estilo versátil para todo el día.',
@@ -201,7 +257,7 @@ const products = [
   },
   {
     id: 26,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (20)',
     price: 90.00,
     description: 'Diseño urbano con detalles modernos.',
@@ -209,7 +265,7 @@ const products = [
   },
   {
     id: 27,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (21)',
     price: 90.00,
     description: 'Comodidad y estilo en una sola prenda.',
@@ -217,7 +273,7 @@ const products = [
   },
   {
     id: 28,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (22)',
     price: 90.00,
     description: 'Look urbano y casual.',
@@ -225,7 +281,7 @@ const products = [
   },
   {
     id: 29,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (23)',
     price: 90.00,
     description: 'Estilo fresco para tu closet.',
@@ -233,7 +289,7 @@ const products = [
   },
   {
     id: 30,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (24)',
     price: 90.00,
     description: 'Diseño moderno con acabado suave.',
@@ -241,7 +297,7 @@ const products = [
   },
   {
     id: 31,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (25)',
     price: 90.00,
     description: 'Look diario con estilo urbano.',
@@ -249,11 +305,141 @@ const products = [
   },
   {
     id: 32,
-    category: 'men',
+    category: 'men-tshirts',
     name: 'Camiseta 1.1 tela fria (26)',
     price: 90.00,
     description: 'Estilo versátil para el día a día.',
     image: 'imagenes/camisetas caballero/26.jpeg'
+  },
+  {
+    id: 33,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (1)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero_(1) PM.jpeg'
+  },
+  {
+    id: 34,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (2)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(2).jpeg'
+  },
+  {
+    id: 35,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (3)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(3).jpeg'
+  },
+  {
+    id: 36,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (4)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(4).jpeg'
+  },
+  {
+    id: 37,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (5)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(5).jpeg'
+  },
+  {
+    id: 38,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (6)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(6).jpeg'
+  },
+  {
+    id: 39,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (7)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(7).jpeg'
+  },
+  {
+    id: 40,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (8)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(8).jpeg'
+  },
+  {
+    id: 41,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (9)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(9).jpeg'
+  },
+  {
+    id: 42,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (10)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(10).jpeg'
+  },
+  {
+    id: 43,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (11)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(11).jpeg'
+  },
+
+  {
+    id: 45,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (13)',
+    price: 160.000,
+    description: 'Algodón perchado  .',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(13).jpeg'
+  },
+  {
+    id: 46,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (14)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(14).jpeg'
+  },
+  {
+    id: 47,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (15)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(15).jpeg'
+  },
+  {
+    id: 48,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (16)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(16).jpeg'
+  },
+
+  {
+    id: 50,
+    category: 'men-sets',
+    name: 'Conjunto deportivo (18)',
+    price: 160.000,
+    description: 'Algodón perchado.',
+    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(18).jpeg'
   }
 ];
 
@@ -281,7 +467,9 @@ function formatCurrency(value) {
 function renderProducts() {
   const filteredProducts = selectedCategory === 'all'
     ? products
-    : products.filter((product) => product.category === selectedCategory);
+    : selectedCategory === 'women' || selectedCategory === 'men'
+      ? products.filter((product) => product.category.startsWith(selectedCategory))
+      : products.filter((product) => product.category === selectedCategory);
 
   productList.innerHTML = filteredProducts.map((product) => `
     <article class="product-card">
@@ -314,9 +502,9 @@ categoryFilters.addEventListener('click', (event) => {
 
   const submenu = button.closest('.filter-group')?.querySelector('.submenu');
 
-  if (button.dataset.category === 'women') {
+  if (button.dataset.category === 'women' || button.dataset.category === 'men') {
     submenu?.classList.toggle('show');
-    setActiveFilter('women');
+    setActiveFilter(button.dataset.category);
     return;
   }
 
