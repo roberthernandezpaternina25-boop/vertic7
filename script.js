@@ -504,6 +504,86 @@ const products = [
     price: 160.000,
     description: 'Algodón perchado.',
     image: 'imagenes/conjuntos_caballeros/conjunto_caballero(18).jpeg'
+  },
+  {
+    id: 60,
+    category: 'men-hats',
+    name: 'gorra beisbolera (1)',
+    price: 35.000,
+    description: 'Gorra casual con estilo urbano para hombres.',
+    image: 'imagenes/gorras_caballeros/gorra(1).jpeg'
+  },
+  {
+    id: 61,
+    category: 'men-hats',
+    name: 'gorra beisbolera (2)',
+    price: 35.000,
+    description: 'Gorra casual con estilo urbano para hombres.',
+    image: 'imagenes/gorras_caballeros/gorra(2).jpeg'
+  },
+  {
+    id: 62,
+    category: 'men-hats',
+    name: 'gorra beisbolera (3)',
+    price: 35.000,
+    description: 'Look moderno con acabado resistente.',
+    image: 'imagenes/gorras_caballeros/gorra(3).jpeg'
+  },
+  {
+    id: 63,
+    category: 'men-hats',
+    name: 'gorra beisbolera (4)',
+    price: 35.000,
+    description: 'Prenda versátil para el día a día.',
+    image: 'imagenes/gorras_caballeros/gorra(4).jpeg'
+  },
+  {
+    id: 64,
+    category: 'men-hats',
+    name: 'gorra beisbolera (5)',
+    price: 35.000,
+    description: 'Diseño cómodo y fresco para el sol.',
+    image: 'imagenes/gorras_caballeros/gorra(5).jpeg'
+  },
+  {
+    id: 65,
+    category: 'men-hats',
+    name: 'Gorra mexicana (1)',
+    price: 40.000,
+    description: 'Estilo tradicional con toque urbano.',
+    image: 'imagenes/gorras_caballeros/gorramexicancaos(2).jpeg'
+  },
+  {
+    id: 66,
+    category: 'men-hats',
+    name: 'Gorra mexicana (2)',
+    price: 40.000,
+    description: 'Modelo llamativo y muy cómodo.',
+    image: 'imagenes/gorras_caballeros/gorramexicancaps(1).jpeg'
+  },
+  {
+    id: 67,
+    category: 'men-hats',
+    name: 'Gorra 1.1 (1)',
+    price: 38.000,
+    description: 'Estilo casual con detalle moderno.',
+    image: 'imagenes/gorras_caballeros/gorras1.1(1).jpeg'
+  },
+  {
+    id: 68,
+    category: 'men-hats',
+    name: 'Gorra 1.1 (2)',
+    price: 38.000,
+    description: 'Diseño fresco para complementar tu look.',
+    image: 'imagenes/gorras_caballeros/gorras1.1(2).jpeg'
+  },
+  {
+    id: 69,
+    category: 'men-hats',
+    name: 'Gorra 1.1 (3)',
+    price: 38.000,
+    description: 'Modelo moderno con excelente acabado.',
+    image: 'imagenes/gorras_caballeros/gorras1.1(3).jpeg'
   }
 ];
 
