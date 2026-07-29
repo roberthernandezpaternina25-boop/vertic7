@@ -112,6 +112,94 @@ const products = [
     image: 'imagenes/jeans_dama/jean1.jpeg'
   },
   {
+    id: 71,
+    category: 'women-jeans',
+    name: 'Jeans Dama 2',
+    price: 98.000,
+    description: 'Jeans dama con estilo moderno y ajuste cómodo.',
+    image: 'imagenes/jeans_dama/8.jpeg'
+  },
+  {
+    id: 72,
+    category: 'women-jeans',
+    name: 'Jeans Dama 3',
+    price: 98.000,
+    description: 'Jeans dama con diseño urbano y corte femenino.',
+    image: 'imagenes/jeans_dama/9.jpeg'
+  },
+  {
+    id: 73,
+    category: 'women-jeans',
+    name: 'Jeans Dama 4',
+    price: 98.000,
+    description: 'Jeans dama con detalle moderno y look casual.',
+    image: 'imagenes/jeans_dama/10.jpeg'
+  },
+  {
+    id: 74,
+    category: 'women-jeans',
+    name: 'Jeans Dama 5',
+    price: 98.000,
+    description: 'Jeans dama con acabado cómodo y versátil.',
+    image: 'imagenes/jeans_dama/11.jpeg'
+  },
+  {
+    id: 75,
+    category: 'women-jeans',
+    name: 'Jeans Dama 6',
+    price: 98.000,
+    description: 'Jeans dama con estilo fresco para el día a día.',
+    image: 'imagenes/jeans_dama/12.jpeg'
+  },
+  {
+    id: 76,
+    category: 'women-jeans',
+    name: 'Jeans Dama 7',
+    price: 98.000,
+    description: 'Jeans dama con silueta moderna y tendencia.',
+    image: 'imagenes/jeans_dama/jeans2.jpeg'
+  },
+  {
+    id: 77,
+    category: 'women-jeans',
+    name: 'Jeans Dama 8',
+    price: 98.000,
+    description: 'Jeans dama con diseño chic y comodidad.',
+    image: 'imagenes/jeans_dama/jeans3.jpeg'
+  },
+  {
+    id: 78,
+    category: 'women-jeans',
+    name: 'Jeans Dama 9',
+    price: 98.000,
+    description: 'Jeans dama con toque urbano y elegante.',
+    image: 'imagenes/jeans_dama/jeans4.jpeg'
+  },
+  {
+    id: 79,
+    category: 'women-jeans',
+    name: 'Jeans Dama 10',
+    price: 98.000,
+    description: 'Jeans dama con corte cómodo y estilo actual.',
+    image: 'imagenes/jeans_dama/jeans5.jpeg'
+  },
+  {
+    id: 80,
+    category: 'women-jeans',
+    name: 'Jeans Dama 11',
+    price: 98.000,
+    description: 'Jeans dama con personalidad y muy versátil.',
+    image: 'imagenes/jeans_dama/jeans6.jpeg'
+  },
+  {
+    id: 81,
+    category: 'women-jeans',
+    name: 'Jeans Dama 12',
+    price: 98.000,
+    description: 'Jeans dama con acabado premium y moderno.',
+    image: 'imagenes/jeans_dama/jeans7.jpeg'
+  },
+  {
     id: 51,
     category: 'women-ruanas',
     name: 'Ruana (1)',
