@@ -3,7 +3,7 @@ const products = [
     id: 1,
     category: 'women-tshirts',
     name: 'Camiseta Silletero',
-    price: 50.0000000,
+    price: 50.000,
     description: 'Diseño Silletero al frente, algodón suave.',
     image: 'imagenes/camisetas dama/1.jpg'
   },
@@ -11,7 +11,7 @@ const products = [
     id: 2,
     category: 'women-tshirts',
     name: 'Camiseta Medellín',
-    price: 50.0000,
+    price: 50.000,
     description: 'Estampa Medellín, corte clásico femenino.',
     image: 'imagenes/camisetas dama/2.jpg'
   },
@@ -102,6 +102,14 @@ const products = [
     price: 120.000,
     description: 'Tenis femenino con estilo deportivo y cómodo.',
     image: 'imagenes/tenis_dama/tenis(7).jpeg'
+  },
+  {
+    id: 70,
+    category: 'women-jeans',
+    name: 'Jeans Dama 1',
+    price: 70.000,
+    description: 'Jeans dama estilo clásico y cómodo.',
+    image: 'imagenes/jeans_dama/jean1.jpeg'
   },
   {
     id: 51,
@@ -605,6 +613,7 @@ const imageModal = document.getElementById('image-modal');
 const imageModalClose = document.getElementById('image-modal-close');
 const imageModalPrev = document.getElementById('image-modal-prev');
 const imageModalNext = document.getElementById('image-modal-next');
+const imageModalBack = document.getElementById('image-modal-back');
 const imageModalImg = document.getElementById('image-modal-img');
 const imageModalCaption = document.getElementById('image-modal-caption');
 const whatsappNumber = '3218920417';
@@ -654,6 +663,13 @@ function showModalImage(index) {
   imageModal.classList.add('open');
   imageModal.setAttribute('aria-hidden', 'false');
   document.body.classList.add('no-scroll');
+}
+
+function scrollToMainImage() {
+  const imageElement = productList.querySelector(`img[data-index="${currentModalIndex}"]`);
+  if (!imageElement) return;
+  imageElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  closeImageModal();
 }
 
 function openImageModal(index) {
@@ -841,6 +857,7 @@ imageModalNext.addEventListener('click', () => {
   const nextIndex = (currentModalIndex + 1) % currentGallery.length;
   showModalImage(nextIndex);
 });
+imageModalBack.addEventListener('click', scrollToMainImage);
 imageModal.addEventListener('click', (event) => {
   if (event.target === imageModal) closeImageModal();
 });
