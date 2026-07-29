@@ -3,7 +3,7 @@ const products = [
     id: 1,
     category: 'women-tshirts',
     name: 'Camiseta Silletero',
-    price: 50.000,
+    price: 50.0000000,
     description: 'Diseño Silletero al frente, algodón suave.',
     image: 'imagenes/camisetas dama/1.jpg'
   },
@@ -11,7 +11,7 @@ const products = [
     id: 2,
     category: 'women-tshirts',
     name: 'Camiseta Medellín',
-    price: 50.000,
+    price: 50.0000,
     description: 'Estampa Medellín, corte clásico femenino.',
     image: 'imagenes/camisetas dama/2.jpg'
   },
@@ -613,7 +613,8 @@ let currentGallery = [];
 let currentModalIndex = 0;
 
 function formatCurrency(value) {
-  return `$${value.toFixed(2)}`;
+  const num = Number(value) || 0;
+  return num.toLocaleString('es-CO', { style: 'currency', currency: 'COP', minimumFractionDigits: 3, maximumFractionDigits: 3 });
 }
 
 function renderProducts() {
