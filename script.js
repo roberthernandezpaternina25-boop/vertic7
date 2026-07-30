@@ -680,6 +680,23 @@ const products = [
     price: 38.000,
     description: 'Modelo moderno con excelente acabado.',
     image: 'imagenes/gorras_caballeros/gorras1.1(3).jpeg'
+  },
+  {
+    id: 82,
+    category: 'men-specials',
+    name: 'Prenda especial caballero',
+    price: 120.000,
+    description: 'Nueva prenda especial para hombres con estilo urbano.',
+    image: 'https://i.ibb.co/V0pLwf63/1.jpg'
+  },
+  {
+    id: 83,
+    category: 'men-specials',
+    name: 'Prenda especial caballero (2)',
+    price: 120.000,
+    description: 'tela jeans semilicrado <br> Es bota ancha tipo baggy.',
+    talla: '30,32,34,36,',
+    image: 'https://i.ibb.co/RGYYyyvw/2.jpg'
   }
 ];
 
