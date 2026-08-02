@@ -5,7 +5,7 @@ const products = [
     name: 'Camiseta Silletero',
     price: 50.000,
     description: 'Diseño Silletero al frente, algodón suave.',
-    image: 'imagenes/camisetas dama/1.jpg'
+    image: 'https://i.ibb.co/ZzxLYJPG/5.jpg'
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const products = [
     name: 'Camiseta Medellín',
     price: 50.000,
     description: 'Estampa Medellín, corte clásico femenino.',
-    image: 'imagenes/camisetas dama/2.jpg'
+    image: 'https://i.ibb.co/DgCxQmgY/2.jpg'
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const products = [
     name: 'Camiseta Silletero (espalda)',
     price: 50.000,
     description: 'Diseño en la espalda con ilustración tradicional.',
-    image: 'imagenes/camisetas dama/3.jpg'
+    image: 'https://i.ibb.co/dwTT3p8Y/1.jpg'
   },
   {
     id: 4,
@@ -29,23 +29,24 @@ const products = [
     name: 'Camiseta Colorida',
     price: 50.000,
     description: 'Letras y flores, look fresco.',
-    image: 'imagenes/camisetas dama/4.jpg'
+    image: 'https://i.ibb.co/KcMJ1rY6/4.jpg'
   },
   {
     id: 5,
     category: 'women-tshirts',
     name: 'Camiseta Floral',
     price: 50.000,
-    description: 'Ilustración floral en tonos cálidos.',
-    image: 'imagenes/camisetas dama/5.jpg'
+    description: 'estampado tradicional.',
+    image: 'https://i.ibb.co/TM4r7TMj/3.jpg'
   },
   {
     id: 6,
     category: 'women-tshirts',
     name: 'Camiseta Silletero (detalle)',
     price: 50.000,
-    description: 'Detalle posterior con flores y paisaje.',
-    image: 'imagenes/camisetas dama/6.jpg'
+    description: 'básico en tela pesada .',
+    talla: 'S,M, L, XL',
+    image: 'https://i.ibb.co/RTZPFdk1/Whats-App-Image-2026-07-27-at-11-03-25-AM.jpg'
   },
   {
     id: 7,
@@ -53,15 +54,16 @@ const products = [
     name: 'Tenis Dama 1',
     price: 120.000,
     description: 'Tenis cómodo con diseño moderno para mujer.',
-    image: 'imagenes/tenis_dama/tenis1.jpeg'
+    image: 'https://i.ibb.co/mV36M1DS/tenis1.jpg'
   },
   {
     id: 8,
     category: 'women-tennis',
     name: 'Tenis Dama 2',
     price: 120.000,
-    description: 'Tenis deportivo con estilo femenino y suave amortiguación.',
-    image: 'imagenes/tenis_dama/tenis(2).jpeg'
+    description: 'básico en tela pesada .',
+    talla: 'S,M, L, XL',
+    image: 'https://i.ibb.co/Gf2V8dJf/tenis-2.jpg'
   },
   {
     id: 9,
@@ -69,7 +71,7 @@ const products = [
     name: 'Tenis Dama 3',
     price: 120.000,
     description: 'Tenis ligero ideal para paseos y uso diario.',
-    image: 'imagenes/tenis_dama/tenis(3).jpeg'
+    image: 'https://i.ibb.co/Fq6Cgbpd/tenis-3.jpg'
   },
   {
     id: 10,
@@ -77,7 +79,7 @@ const products = [
     name: 'Tenis Dama 4',
     price: 120.000,
     description: 'Tenis con detalle de colores y suela cómoda.',
-    image: 'imagenes/tenis_dama/tenis(4).jpeg'
+    image: 'https://i.ibb.co/TDqQf8C0/tenis-4.jpg'
   },
   {
     id: 11,
@@ -85,7 +87,7 @@ const products = [
     name: 'Tenis Dama 5',
     price: 120.000,
     description: 'Tenis moderno con texturas suaves y ajuste perfecto.',
-    image: 'imagenes/tenis_dama/tenis(5).jpeg'
+    image: 'https://i.ibb.co/DgTnshDx/tenis-5.jpg'
   },
   {
     id: 12,
@@ -93,7 +95,7 @@ const products = [
     name: 'Tenis Dama 6',
     price: 120.000,
     description: 'Tenis urbano con un look fresco para mujer.',
-    image: 'imagenes/tenis_dama/tenis(6).jpeg'
+    image: 'https://i.ibb.co/xq3RS8Bc/tenis-6.jpg'
   },
   {
     id: 13,
@@ -101,7 +103,7 @@ const products = [
     name: 'Tenis Dama 7',
     price: 120.000,
     description: 'Tenis femenino con estilo deportivo y cómodo.',
-    image: 'imagenes/tenis_dama/tenis(7).jpeg'
+    image: 'https://i.ibb.co/vtRNNbq/tenis-7.jpg'
   },
   {
     id: 70,
@@ -109,7 +111,7 @@ const products = [
     name: 'Jeans Dama 1',
     price: 70.000,
     description: 'Jeans dama estilo clásico y cómodo.',
-    image: 'imagenes/jeans_dama/jean1.jpeg'
+    image: 'https://i.ibb.co/FbVgtLjj/jean1.jpg'
   },
   {
     id: 71,
@@ -117,7 +119,7 @@ const products = [
     name: 'Jeans Dama 2',
     price: 98.000,
     description: 'Jeans dama con estilo moderno y ajuste cómodo.',
-    image: 'imagenes/jeans_dama/8.jpeg'
+    image: 'https://i.ibb.co/PGyN2ZLt/jeans2.jpg'
   },
   {
     id: 72,
@@ -125,7 +127,7 @@ const products = [
     name: 'Jeans Dama 3',
     price: 98.000,
     description: 'Jeans dama con diseño urbano y corte femenino.',
-    image: 'imagenes/jeans_dama/9.jpeg'
+    image: 'https://i.ibb.co/7J3YtYks/jeans3.jpg'
   },
   {
     id: 73,
@@ -133,7 +135,7 @@ const products = [
     name: 'Jeans Dama 4',
     price: 98.000,
     description: 'Jeans dama con detalle moderno y look casual.',
-    image: 'imagenes/jeans_dama/10.jpeg'
+    image: 'https://i.ibb.co/XrVq0vvh/jeans4.jpg'
   },
   {
     id: 74,
@@ -141,7 +143,7 @@ const products = [
     name: 'Jeans Dama 5',
     price: 98.000,
     description: 'Jeans dama con acabado cómodo y versátil.',
-    image: 'imagenes/jeans_dama/11.jpeg'
+    image: 'https://i.ibb.co/twYbX6hr/jeans5.jpg'
   },
   {
     id: 75,
@@ -149,7 +151,7 @@ const products = [
     name: 'Jeans Dama 6',
     price: 98.000,
     description: 'Jeans dama con estilo fresco para el día a día.',
-    image: 'imagenes/jeans_dama/12.jpeg'
+    image: 'https://i.ibb.co/bjv48yR0/jeans6.jpg'
   },
   {
     id: 76,
@@ -157,7 +159,7 @@ const products = [
     name: 'Jeans Dama 7',
     price: 98.000,
     description: 'Jeans dama con silueta moderna y tendencia.',
-    image: 'imagenes/jeans_dama/jeans2.jpeg'
+    image: 'https://i.ibb.co/shZhwh9/jeans7.jpg'
   },
   {
     id: 77,
@@ -165,7 +167,7 @@ const products = [
     name: 'Jeans Dama 8',
     price: 98.000,
     description: 'Jeans dama con diseño chic y comodidad.',
-    image: 'imagenes/jeans_dama/jeans3.jpeg'
+    image: 'https://i.ibb.co/d4gdnd5g/8.jpg'
   },
   {
     id: 78,
@@ -173,7 +175,7 @@ const products = [
     name: 'Jeans Dama 9',
     price: 98.000,
     description: 'Jeans dama con toque urbano y elegante.',
-    image: 'imagenes/jeans_dama/jeans4.jpeg'
+    image: 'https://i.ibb.co/M5DjFkzz/9.jpg'
   },
   {
     id: 79,
@@ -181,7 +183,7 @@ const products = [
     name: 'Jeans Dama 10',
     price: 98.000,
     description: 'Jeans dama con corte cómodo y estilo actual.',
-    image: 'imagenes/jeans_dama/jeans5.jpeg'
+    image: 'https://i.ibb.co/m5b4vQz4/10.jpg'
   },
   {
     id: 80,
@@ -189,7 +191,7 @@ const products = [
     name: 'Jeans Dama 11',
     price: 98.000,
     description: 'Jeans dama con personalidad y muy versátil.',
-    image: 'imagenes/jeans_dama/jeans6.jpeg'
+    image: 'https://i.ibb.co/zMZVpmn/11.jpg'
   },
   {
     id: 81,
@@ -197,7 +199,7 @@ const products = [
     name: 'Jeans Dama 12',
     price: 98.000,
     description: 'Jeans dama con acabado premium y moderno.',
-    image: 'imagenes/jeans_dama/jeans7.jpeg'
+    image: 'https://i.ibb.co/NnGBz8cG/12.jpg'
   },
   {
     id: 51,
@@ -205,7 +207,7 @@ const products = [
     name: 'Ruana (1)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruanas1.jpeg'
+    image: 'https://i.ibb.co/606WdjkC/ruanas1.jpg'
   },
   {
     id: 52,
@@ -213,7 +215,7 @@ const products = [
     name: 'Ruana (2)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana2 (2).jpeg'
+    image: 'https://i.ibb.co/Pz09BVks/ruana2-2.jpg'
   },
   {
     id: 53,
@@ -221,7 +223,7 @@ const products = [
     name: 'Ruana (3)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana3.jpeg'
+    image: 'https://i.ibb.co/5xWL4FL7/ruana3.jpg'
   },
   {
     id: 54,
@@ -229,7 +231,7 @@ const products = [
     name: 'Ruana (4)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana4.jpeg'
+    image: 'https://i.ibb.co/TC1m3p9/ruana4.jpg'
   },
   {
     id: 55,
@@ -237,7 +239,7 @@ const products = [
     name: 'Ruana (5)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana5.jpeg'
+    image: 'https://i.ibb.co/WNRMxPWk/ruana5.jpg'
   },
   {
     id: 56,
@@ -245,7 +247,7 @@ const products = [
     name: 'Ruana (6)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana6.jpeg'
+    image: 'https://i.ibb.co/PZ9nQWp5/ruana6.jpg'
   },
   {
     id: 57,
@@ -253,7 +255,7 @@ const products = [
     name: 'Ruana (7)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana7.jpeg'
+    image: 'https://i.ibb.co/qFM2DDFB/ruana7.jpg'
   },
   {
     id: 58,
@@ -261,7 +263,7 @@ const products = [
     name: 'Ruana (8)',
     price: 100.000,
     description: 'talla unica, tela hilo nacional.',
-    image: 'imagenes/Ruanas/ruana8.jpeg'
+    image: 'https://i.ibb.co/NdyGrRd3/ruana8.jpg'
   },
   {
     id: 14,
@@ -269,7 +271,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (1)',
     price: 90.000,
     description: 'Corte moderno con estampado masculino.',
-    image: 'imagenes/camisetas caballero/1.jpeg'
+    image: 'https://i.ibb.co/vxGgXdjZ/14.jpg'
   },
   {
     id: 8,
@@ -277,7 +279,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (2)',
     price: 90.000,
     description: 'Tonos sobrios y estilo urbano.',
-    image: 'imagenes/camisetas caballero/2.jpeg'
+    image: 'https://i.ibb.co/whxwtkZC/8.jpg'
   },
   {
     id: 9,
@@ -285,7 +287,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (3)',
     price: 90.000,
     description: 'Look fresco para uso diario.',
-    image: 'imagenes/camisetas caballero/3.jpeg'
+    image: 'https://i.ibb.co/53gD1NJ/9.jpg'
   },
   {
     id: 10,
@@ -293,7 +295,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (4)',
     price: 90.00,
     description: 'Estilo relajado con detalle gráfico.',
-    image: 'imagenes/camisetas caballero/4.jpeg'
+    image: 'https://i.ibb.co/rRbWnGKX/10.jpg'
   },
   {
     id: 11,
@@ -301,7 +303,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (5)',
     price: 90.000,
     description: 'Moda urbana con corte cómodo.',
-    image: 'imagenes/camisetas caballero/5.jpeg'
+    image: 'https://i.ibb.co/yFR0X8JQ/11.jpg'
   },
   {
     id: 12,
@@ -309,7 +311,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (6)',
     price: 90.000,
     description: 'Diseño casual para cualquier ocasión.',
-    image: 'imagenes/camisetas caballero/6.jpeg'
+    image: 'https://i.ibb.co/nMxK6j6R/12.jpg'
   },
   {
     id: 13,
@@ -317,7 +319,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (7)',
     price: 90.000,
     description: 'Estilo moderno con estampados frescos.',
-    image: 'imagenes/camisetas caballero/7.jpeg'
+    image: 'https://i.ibb.co/tMCzHrmJ/13.jpg'
   },
   {
     id: 14,
@@ -325,7 +327,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (8)',
     price: 90.000,
     description: 'Look urbano para tu día a día.',
-    image: 'imagenes/camisetas caballero/8.jpeg'
+    image: 'https://i.ibb.co/vxGgXdjZ/14.jpg'
   },
   {
     id: 15,
@@ -333,7 +335,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (9)',
     price: 90.000,
     description: 'Estilo básico con un toque moderno.',
-    image: 'imagenes/camisetas caballero/9.jpeg'
+    image: 'https://i.ibb.co/Z1czZYYf/15.jpg'
   },
   {
     id: 16,
@@ -341,7 +343,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (10)',
     price: 90.000,
     description: 'Acentos discretos y look diario.',
-    image: 'imagenes/camisetas caballero/10.jpeg'
+    image: 'https://i.ibb.co/YFsxcrMg/16.jpg'
   },
   {
     id: 17,
@@ -349,7 +351,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (11)',
     price: 90.000,
     description: 'Diseño minimalista para cualquier ocasión.',
-    image: 'imagenes/camisetas caballero/11.jpeg'
+    image: 'https://i.ibb.co/dJzbPgbY/17.jpg'
   },
   {
     id: 18,
@@ -357,7 +359,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (12)',
     price: 90.000,
     description: 'Estilo urbano con acabado suave.',
-    image: 'imagenes/camisetas caballero/12.jpeg'
+    image: 'https://i.ibb.co/20s5d4nh/18.jpg'
   },
   {
     id: 19,
@@ -365,7 +367,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (13)',
     price: 90.000,
     description: 'Look moderno con estampado ligero.',
-    image: 'imagenes/camisetas caballero/13.jpeg'
+    image: 'https://i.ibb.co/QzKFWHk/19.jpg'
   },
   {
     id: 20,
@@ -373,7 +375,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (14)',
     price: 90.000,
     description: 'Color sólido con estilo urbano.',
-    image: 'imagenes/camisetas caballero/14.jpeg'
+    image: 'https://i.ibb.co/cXhvRhrq/20.jpg'
   },
   {
     id: 21,
@@ -381,7 +383,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (15)',
     price: 90.000,
     description: 'Diseño fresco y cómodo para el día.',
-    image: 'imagenes/camisetas caballero/15.jpeg'
+    image: 'https://i.ibb.co/7NkrtNNV/21.jpg'
   },
   {
     id: 22,
@@ -389,7 +391,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (16)',
     price: 90.000,
     description: 'Estilo relajado con detalles modernos.',
-    image: 'imagenes/camisetas caballero/16.jpeg'
+    image: 'https://i.ibb.co/G41LyrhD/22.jpg'
   },
   {
     id: 23,
@@ -397,7 +399,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (17)',
     price: 90.000,
     description: 'Look urbano con gráfico sutil.',
-    image: 'imagenes/camisetas caballero/17.jpeg'
+    image: 'https://i.ibb.co/p6mtYS5S/23.jpg'
   },
   {
     id: 24,
@@ -405,7 +407,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (18)',
     price: 90.000,
     description: 'Corte clásico con toque contemporáneo.',
-    image: 'imagenes/camisetas caballero/18.jpeg'
+    image: 'https://i.ibb.co/bjcMyqXR/24.jpg'
   },
   {
     id: 25,
@@ -413,7 +415,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (19)',
     price: 90.000,
     description: 'Estilo versátil para todo el día.',
-    image: 'imagenes/camisetas caballero/19.jpeg'
+    image: 'https://i.ibb.co/RGX2kt4r/25.jpg'
   },
   {
     id: 26,
@@ -421,7 +423,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (20)',
     price: 90.000,
     description: 'Diseño urbano con detalles modernos.',
-    image: 'imagenes/camisetas caballero/20.jpeg'
+    image: 'https://i.ibb.co/KpHy4Gz6/26.jpg'
   },
   {
     id: 27,
@@ -429,7 +431,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (21)',
     price: 90.000,
     description: 'Comodidad y estilo en una sola prenda.',
-    image: 'imagenes/camisetas caballero/21.jpeg'
+    image: 'https://i.ibb.co/5hZvvcJk/1.jpg'
   },
   {
     id: 28,
@@ -437,7 +439,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (22)',
     price: 90.000,
     description: 'Look urbano y casual.',
-    image: 'imagenes/camisetas caballero/22.jpeg'
+    image: 'https://i.ibb.co/SDV4Ywwt/2.jpg'
   },
   {
     id: 29,
@@ -445,7 +447,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (23)',
     price: 90.000,
     description: 'Estilo fresco para tu closet.',
-    image: 'imagenes/camisetas caballero/23.jpeg'
+    image: 'https://i.ibb.co/KzVPB3Z1/3.jpg'
   },
   {
     id: 30,
@@ -453,7 +455,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (24)',
     price: 90.000,
     description: 'Diseño moderno con acabado suave.',
-    image: 'imagenes/camisetas caballero/24.jpeg'
+    image: 'https://i.ibb.co/PsxL058K/4.jpg'
   },
   {
     id: 31,
@@ -461,7 +463,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (25)',
     price: 90.000,
     description: 'Look diario con estilo urbano.',
-    image: 'imagenes/camisetas caballero/25.jpeg'
+    image: 'https://i.ibb.co/CGnMT1Y/5.jpg'
   },
   {
     id: 32,
@@ -469,7 +471,7 @@ const products = [
     name: 'Camiseta 1.1 tela fria (26)',
     price: 90.000,
     description: 'Estilo versátil para el día a día.',
-    image: 'imagenes/camisetas caballero/26.jpeg'
+    image: 'https://i.ibb.co/rKTQ8yk3/6.jpg'
   },
   {
     id: 33,
@@ -477,7 +479,7 @@ const products = [
     name: 'Conjunto deportivo (1)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero_(1) PM.jpeg'
+    image: 'https://i.ibb.co/35VhdMJL/conjunto-caballero-1-PM.jpg'
   },
   {
     id: 34,
@@ -485,7 +487,7 @@ const products = [
     name: 'Conjunto deportivo (2)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(2).jpeg'
+    image: 'https://i.ibb.co/8nPy4zpk/conjunto-caballero-2.jpg'
   },
   {
     id: 35,
@@ -493,7 +495,7 @@ const products = [
     name: 'Conjunto deportivo (3)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(3).jpeg'
+    image: 'https://i.ibb.co/WvTQ5XJY/conjunto-caballero-3.jpg'
   },
   {
     id: 36,
@@ -501,7 +503,7 @@ const products = [
     name: 'Conjunto deportivo (4)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(4).jpeg'
+    image: 'https://i.ibb.co/v4phfrrM/conjunto-caballero-4.jpg'
   },
   {
     id: 37,
@@ -509,7 +511,7 @@ const products = [
     name: 'Conjunto deportivo (5)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(5).jpeg'
+    image: 'https://i.ibb.co/svRwQFLr/conjunto-caballero-5.jpg'
   },
   {
     id: 38,
@@ -517,7 +519,7 @@ const products = [
     name: 'Conjunto deportivo (6)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(6).jpeg'
+    image: 'https://i.ibb.co/pj8q2Kn6/conjunto-caballero-6.jpg'
   },
   {
     id: 39,
@@ -525,7 +527,7 @@ const products = [
     name: 'Conjunto deportivo (7)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(7).jpeg'
+    image: 'https://i.ibb.co/rfMChQQ8/conjunto-caballero-7.jpg'
   },
   {
     id: 40,
@@ -533,7 +535,7 @@ const products = [
     name: 'Conjunto deportivo (8)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(8).jpeg'
+    image: 'https://i.ibb.co/PGK451W2/conjunto-caballero-8.jpg'
   },
   {
     id: 41,
@@ -541,7 +543,7 @@ const products = [
     name: 'Conjunto deportivo (9)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(9).jpeg'
+    image: 'https://i.ibb.co/bYxD3hb/conjunto-caballero-9.jpg'
   },
   {
     id: 42,
@@ -549,7 +551,7 @@ const products = [
     name: 'Conjunto deportivo (10)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(10).jpeg'
+    image: 'https://i.ibb.co/twzRTKYJ/conjunto-caballero-10.jpg'
   },
   {
     id: 43,
@@ -557,7 +559,7 @@ const products = [
     name: 'Conjunto deportivo (11)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(11).jpeg'
+    image: 'https://i.ibb.co/yc3DXjR6/conjunto-caballero-11.jpg'
   },
 
   {
@@ -566,7 +568,7 @@ const products = [
     name: 'Conjunto deportivo (13)',
     price: 160.000,
     description: 'Algodón perchado  .',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(13).jpeg'
+    image: 'https://i.ibb.co/Sw2VCT4m/conjunto-caballero-13.jpg'
   },
   {
     id: 46,
@@ -574,7 +576,7 @@ const products = [
     name: 'Conjunto deportivo (14)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(14).jpeg'
+    image: 'https://i.ibb.co/d0y5P6RY/conjunto-caballero-14.jpg'
   },
   {
     id: 47,
@@ -582,7 +584,7 @@ const products = [
     name: 'Conjunto deportivo (15)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(15).jpeg'
+    image: 'https://i.ibb.co/5ggKhPK1/conjunto-caballero-15.jpg'
   },
   {
     id: 48,
@@ -590,7 +592,7 @@ const products = [
     name: 'Conjunto deportivo (16)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(16).jpeg'
+    image: 'https://i.ibb.co/gL4vR73L/conjunto-caballero-16.jpg'
   },
 
   {
@@ -599,7 +601,7 @@ const products = [
     name: 'Conjunto deportivo (18)',
     price: 160.000,
     description: 'Algodón perchado.',
-    image: 'imagenes/conjuntos_caballeros/conjunto_caballero(18).jpeg'
+    image: 'https://i.ibb.co/zhtk5FxM/conjunto-caballero-18.jpg'
   },
   {
     id: 60,
@@ -607,7 +609,7 @@ const products = [
     name: 'gorra beisbolera (1)',
     price: 35.000,
     description: 'Gorra casual con estilo urbano para hombres.',
-    image: 'imagenes/gorras_caballeros/gorra(1).jpeg'
+    image: 'https://i.ibb.co/yn0PpqsD/gorra-1.jpg'
   },
   {
     id: 61,
@@ -615,7 +617,7 @@ const products = [
     name: 'gorra beisbolera (2)',
     price: 35.000,
     description: 'Gorra casual con estilo urbano para hombres.',
-    image: 'imagenes/gorras_caballeros/gorra(2).jpeg'
+    image: 'https://i.ibb.co/HfGrMYRj/gorra-2.jpg'
   },
   {
     id: 62,
@@ -623,7 +625,7 @@ const products = [
     name: 'gorra beisbolera (3)',
     price: 35.000,
     description: 'Look moderno con acabado resistente.',
-    image: 'imagenes/gorras_caballeros/gorra(3).jpeg'
+    image: 'https://i.ibb.co/9mP3CqjB/gorra-3.jpg'
   },
   {
     id: 63,
@@ -631,7 +633,7 @@ const products = [
     name: 'gorra beisbolera (4)',
     price: 35.000,
     description: 'Prenda versátil para el día a día.',
-    image: 'imagenes/gorras_caballeros/gorra(4).jpeg'
+    image: 'https://i.ibb.co/GvNwkz2s/gorra-4.jpg|'
   },
   {
     id: 64,
@@ -639,7 +641,7 @@ const products = [
     name: 'gorra beisbolera (5)',
     price: 35.000,
     description: 'Diseño cómodo y fresco para el sol.',
-    image: 'imagenes/gorras_caballeros/gorra(5).jpeg'
+    image: 'https://i.ibb.co/99MSQstF/gorra-5.jpg'
   },
   {
     id: 65,
@@ -647,7 +649,7 @@ const products = [
     name: 'Gorra mexicana (1)',
     price: 40.000,
     description: 'Estilo tradicional con toque urbano.',
-    image: 'imagenes/gorras_caballeros/gorramexicancaos(2).jpeg'
+    image: 'https://i.ibb.co/FbjmzZgK/gorramexicancaps-1.jpg'
   },
   {
     id: 66,
@@ -655,7 +657,7 @@ const products = [
     name: 'Gorra mexicana (2)',
     price: 40.000,
     description: 'Modelo llamativo y muy cómodo.',
-    image: 'imagenes/gorras_caballeros/gorramexicancaps(1).jpeg'
+    image: 'https://i.ibb.co/ZptmyW9X/gorramexicancaos-2.jpg'
   },
   {
     id: 67,
@@ -663,7 +665,7 @@ const products = [
     name: 'Gorra 1.1 (1)',
     price: 38.000,
     description: 'Estilo casual con detalle moderno.',
-    image: 'imagenes/gorras_caballeros/gorras1.1(1).jpeg'
+    image: 'https://i.ibb.co/zVQhstmG/gorras1-1-1.jpg'
   },
   {
     id: 68,
@@ -671,7 +673,7 @@ const products = [
     name: 'Gorra 1.1 (2)',
     price: 38.000,
     description: 'Diseño fresco para complementar tu look.',
-    image: 'imagenes/gorras_caballeros/gorras1.1(2).jpeg'
+    image: 'https://i.ibb.co/Z6g4zJzQ/gorras1-1-2.jpg'
   },
   {
     id: 69,
@@ -679,7 +681,7 @@ const products = [
     name: 'Gorra 1.1 (3)',
     price: 38.000,
     description: 'Modelo moderno con excelente acabado.',
-    image: 'imagenes/gorras_caballeros/gorras1.1(3).jpeg'
+    image: 'https://i.ibb.co/Zp5jBmsG/gorras1-1-3.jpg'
   },
   {
     id: 82,
@@ -726,6 +728,15 @@ let selectedCategory = 'all';
 let currentGallery = [];
 let currentModalIndex = 0;
 
+function safeUrl(url) {
+  if (!url) return '';
+  const s = String(url).trim();
+  const lower = s.toLowerCase();
+  if (lower.startsWith('javascript:')) return '';
+  if (/^(https?:|\/|\.\/|\.\.\/|data:image)/i.test(s)) return s;
+  return '';
+}
+
 function formatCurrency(value) {
   const num = Number(value) || 0;
   return num.toLocaleString('es-CO', { style: 'currency', currency: 'COP', minimumFractionDigits: 3, maximumFractionDigits: 3 });
@@ -740,21 +751,68 @@ function renderProducts() {
 
   currentGallery = filteredProducts;
 
-  productList.innerHTML = filteredProducts.map((product, index) => `
-    <article class="product-card">
-      <img src="${encodeURI(product.image)}" alt="${product.name}" data-index="${index}" data-name="${product.name}" data-description="${product.description}" />
-      <h3>${product.name}</h3>
-      <p>${product.description}</p>
-      <div class="product-footer">
-        <span class="price">${formatCurrency(product.price)}</span>
-        <div class="product-actions">
-          <button class="add-to-cart" data-id="${product.id}" type="button">Agregar</button>
-          <button class="buy-now" data-id="${product.id}" type="button">Comprar</button>
-          <button class="info-btn" data-id="${product.id}" type="button">Más información</button>
-        </div>
-      </div>
-    </article>
-  `).join('');
+  // Render products using safe DOM methods to avoid HTML injection
+  productList.innerHTML = '';
+  filteredProducts.forEach((product, index) => {
+    const article = document.createElement('article');
+    article.className = 'product-card';
+
+    const img = document.createElement('img');
+    img.src = safeUrl(product.image);
+    img.alt = product.name || '';
+    img.dataset.index = index;
+    img.dataset.name = product.name || '';
+    img.dataset.description = product.description || '';
+    article.appendChild(img);
+
+    const h3 = document.createElement('h3');
+    h3.textContent = product.name || '';
+    article.appendChild(h3);
+
+    const p = document.createElement('p');
+    // preserve simple <br> as newlines but render as text to avoid injection
+    const safeDescription = (product.description || '').replace(/<br\s*\/?/gi, '\n');
+    p.textContent = safeDescription;
+    article.appendChild(p);
+
+    const footer = document.createElement('div');
+    footer.className = 'product-footer';
+
+    const priceSpan = document.createElement('span');
+    priceSpan.className = 'price';
+    priceSpan.textContent = formatCurrency(product.price);
+    footer.appendChild(priceSpan);
+
+    const actions = document.createElement('div');
+    actions.className = 'product-actions';
+
+    const btnAdd = document.createElement('button');
+    btnAdd.className = 'add-to-cart';
+    btnAdd.type = 'button';
+    btnAdd.dataset.id = product.id;
+    btnAdd.textContent = 'Agregar';
+
+    const btnBuy = document.createElement('button');
+    btnBuy.className = 'buy-now';
+    btnBuy.type = 'button';
+    btnBuy.dataset.id = product.id;
+    btnBuy.textContent = 'Comprar';
+
+    const btnInfo = document.createElement('button');
+    btnInfo.className = 'info-btn';
+    btnInfo.type = 'button';
+    btnInfo.dataset.id = product.id;
+    btnInfo.textContent = 'Más información';
+
+    actions.appendChild(btnAdd);
+    actions.appendChild(btnBuy);
+    actions.appendChild(btnInfo);
+
+    footer.appendChild(actions);
+    article.appendChild(footer);
+
+    productList.appendChild(article);
+  });
 }
 
 function showModalImage(index) {
@@ -762,7 +820,7 @@ function showModalImage(index) {
   if (!product) return;
 
   currentModalIndex = index;
-  imageModalImg.src = encodeURI(product.image);
+  imageModalImg.src = safeUrl(product.image);
   imageModalImg.alt = product.name;
   imageModalCaption.textContent = product.description || product.name;
   imageModal.classList.add('open');
@@ -835,26 +893,72 @@ function updateCart() {
   cartCountElement.textContent = totalItems;
   cartSubtotalElement.textContent = formatCurrency(subtotal);
 
+  // Render cart items safely using DOM APIs
+  cartItemsElement.innerHTML = '';
   if (cartItems.length === 0) {
-    cartItemsElement.innerHTML = '<div class="empty-cart">Tu carrito está vacío.</div>';
+    const empty = document.createElement('div');
+    empty.className = 'empty-cart';
+    empty.textContent = 'Tu carrito está vacío.';
+    cartItemsElement.appendChild(empty);
     return;
   }
 
-  cartItemsElement.innerHTML = cartItems.map((item) => `
-    <div class="cart-item">
-      <img src="${item.image}" alt="${item.name}" />
-      <div class="cart-item-info">
-        <span class="cart-item-title">${item.name}</span>
-        <span class="cart-item-price">${formatCurrency(item.price)}</span>
-        <div class="quantity-controls">
-          <button data-action="decrease" data-id="${item.id}" type="button">−</button>
-          <span>${item.quantity}</span>
-          <button data-action="increase" data-id="${item.id}" type="button">+</button>
-        </div>
-        <button class="remove-item" data-action="remove" data-id="${item.id}" type="button">Eliminar</button>
-      </div>
-    </div>
-  `).join('');
+  cartItems.forEach((item) => {
+    const itemDiv = document.createElement('div');
+    itemDiv.className = 'cart-item';
+
+    const img = document.createElement('img');
+    img.src = safeUrl(item.image);
+    img.alt = item.name || '';
+    itemDiv.appendChild(img);
+
+    const info = document.createElement('div');
+    info.className = 'cart-item-info';
+
+    const title = document.createElement('span');
+    title.className = 'cart-item-title';
+    title.textContent = item.name || '';
+    info.appendChild(title);
+
+    const priceEl = document.createElement('span');
+    priceEl.className = 'cart-item-price';
+    priceEl.textContent = formatCurrency(item.price);
+    info.appendChild(priceEl);
+
+    const qtyControls = document.createElement('div');
+    qtyControls.className = 'quantity-controls';
+
+    const decBtn = document.createElement('button');
+    decBtn.type = 'button';
+    decBtn.dataset.action = 'decrease';
+    decBtn.dataset.id = item.id;
+    decBtn.textContent = '−';
+
+    const qtySpan = document.createElement('span');
+    qtySpan.textContent = String(item.quantity);
+
+    const incBtn = document.createElement('button');
+    incBtn.type = 'button';
+    incBtn.dataset.action = 'increase';
+    incBtn.dataset.id = item.id;
+    incBtn.textContent = '+';
+
+    qtyControls.appendChild(decBtn);
+    qtyControls.appendChild(qtySpan);
+    qtyControls.appendChild(incBtn);
+    info.appendChild(qtyControls);
+
+    const removeBtn = document.createElement('button');
+    removeBtn.className = 'remove-item';
+    removeBtn.type = 'button';
+    removeBtn.dataset.action = 'remove';
+    removeBtn.dataset.id = item.id;
+    removeBtn.textContent = 'Eliminar';
+    info.appendChild(removeBtn);
+
+    itemDiv.appendChild(info);
+    cartItemsElement.appendChild(itemDiv);
+  });
 }
 
 function openCart() {
@@ -937,7 +1041,8 @@ productList.addEventListener('click', (event) => {
     const product = products.find((p) => p.id === Number(buyBtn.dataset.id));
     if (!product) return;
     const message = `Hola, quiero comprar 1x ${product.name} - ${formatCurrency(product.price)}`;
-    window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    const newWin = window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    if (newWin) newWin.opener = null;
     return;
   }
 
@@ -946,7 +1051,8 @@ productList.addEventListener('click', (event) => {
     const product = products.find((p) => p.id === Number(infoBtn.dataset.id));
     if (!product) return;
     const message = `Hola, necesito más información sobre la prenda ${product.name}. ¿Me puedes ayudar?`;
-    window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    const newWin = window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    if (newWin) newWin.opener = null;
     return;
   }
 });
@@ -1005,10 +1111,15 @@ checkoutButton.addEventListener('click', () => {
       .join('\n')}\n\nSubtotal: ${formatCurrency(subtotal)}\nEnvío: Gratis`
   );
 
-  window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+  const newWin = window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+  if (newWin) newWin.opener = null;
   cartItems.length = 0;
   updateCart();
-  cartItemsElement.innerHTML = '<div class="empty-cart">¡Gracias por tu compra! Te redirigimos a WhatsApp.</div>';
+  const thanks = document.createElement('div');
+  thanks.className = 'empty-cart';
+  thanks.textContent = '¡Gracias por tu compra! Te redirigimos a WhatsApp.';
+  cartItemsElement.innerHTML = '';
+  cartItemsElement.appendChild(thanks);
 });
 
 renderProducts();
